@@ -23,7 +23,7 @@ if HALIDE_HOME is not set, the script will automatically point to the current fo
 HALIDE_HOME is the location that points to the halide binary.
 Please make sure it has the flollowing tree:
 
-halide
+$HALIDE_HOME/halide  
     |>  bin/  
     |>  include/  
     |>  lib/  

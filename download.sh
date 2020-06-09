@@ -20,7 +20,7 @@ if [ $machine = Linux ]; then
 fi
 
 if [ $machine = Mac ]; then
-  echo "this is linux"
+  echo "this is a Mac"
   wget $MAC_64_LINK
   tar -xvzf $MAC_64_TGZ
 fi

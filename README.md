@@ -20,7 +20,7 @@ to execute the script run the following command
 if HALIDE_HOME is not set, the script will automatically point to the current folder
 
 ## what is HALIDE_HOME:
-HALIDE_HOME is the script that points to the halide binary.
+HALIDE_HOME is the location that points to the halide binary.
 Please make sure it has the flollowing tree:
 
 halide
@@ -35,3 +35,7 @@ There is a helper script to download halide and uncompress it, to run it:
 ```bash
 ./download.sh HALIDE_HOME
 ```
+
+## Note:
+
+The scripts have been tested only on Linux.
